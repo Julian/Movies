@@ -2,7 +2,7 @@ exclude: README.rst
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: 31d41ff29115a87808277ee0ec23999b17d5b583
+    rev: v4.0.1
     hooks:
     -   id: end-of-file-fixer
     -   id: file-contents-sorter
