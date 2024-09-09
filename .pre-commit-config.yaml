@@ -8,5 +8,5 @@ repos:
     -   id: file-contents-sorter
         files: ".*"
         exclude: "\\..*"
-        args: ["--ignore-case"]
+        args: ["--ignore-case", "--unique"]
     -   id: trailing-whitespace
