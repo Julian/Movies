@@ -2,11 +2,11 @@ exclude: README.rst
 
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: end-of-file-fixer
     -   id: file-contents-sorter
         files: ".*"
         exclude: "\\..*|^Watch$"
-        args: ["--ignore-case", "--unique"]
+        args: ["--ignore-case"]
     -   id: trailing-whitespace
